@@ -1,36 +1,95 @@
 body {
-    color: white;
+    color: #DBD8E3;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     text-align: center;
 }
 
+a {
+    color: #5C5470;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #DBD8E3;
+}
+
 h1 {
-    margin: 0 auto;
-    width: 30%;
+    line-height: 2;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 5rem;
+    margin: 0 auto;
+}
+
+h1, h1 {
+    color: #DBD8E3;
 }
 
 h2 {
     font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #DBD8E3;
 }
 
 h1, h2, h3 {
     font-family: 'Josefin Sans', sans-serif;
 }
 
+p {
+    line-height: 2;
+}
+
+hr {
+    border: dotted #5C5470 6px;
+    border-bottom: none;
+    width: 5%;
+    margin: 100px auto;
+}
+
+.intro {
+    margin: auto;
+    width: 30%;
+}
+
+.skill-row {
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+}
+
+.skill-row > img {
+    width: 25%;
+}
+
+.code-img {
+    float: left;
+    margin-right: 30px;
+}
+
+.videogames-img {
+    float: right;
+    margin-left: 30px;
+}
+
 .top-container {
-    background-color: #222831;
+    background-color: #2A2438;
     padding-top: 200px;
 }
 
 .middle-container {
-    background-color: #393E46;
+    background-color: #352F44;
+    padding: 100px 0;
 }
 
 .bottom-container {
-    background-color: #222831;
+    background-color: #2A2438;
+    padding: 50px 0 20px;
 }
 
 .moon {
@@ -40,7 +99,42 @@ h1, h2, h3 {
     top: 20px;
 }
 
+.skill-desc {
+
+}
+
+.contact-message {
+    margin: 40px auto 60px;
+    width: 40%;
+}
 
 .mountain {
     width: 100%;
+}
+
+.btn {
+	background-color:#dfbdfa;
+	border-radius:28px;
+	border:1px solid #2A2438;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #9752cc;
+}
+.btn:hover {
+	background-color:#bc80ea;
+}
+.btn:active {
+	position:relative;
+	top:1px;
+}
+
+.copyright {
+    font-size: 0.75rem;
+    color: #DBD8E3;
+    padding: 20px 0;
 }
