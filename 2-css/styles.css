@@ -1,0 +1,30 @@
+h1 {
+  font-size: 200px;
+  color: greenyellow;
+}
+
+img:hover {
+    background-color: gold;
+}
+
+/*
+img {
+    background-color: greenyellow;
+}
+*/
+
+.circular {
+    border-radius: 100%;
+}
+
+.control {
+    background-color: greenyellow;
+}
+
+.laptop {
+    background-color: cyan;
+}
+
+#heading {
+    color: cyan;
+}
